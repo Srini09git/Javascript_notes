@@ -1,0 +1,9 @@
+Programiz : https://www.programiz.com/javascript/get-started 
+W3 School : https://www.w3schools.com/js/
+mdn_ : https://developer.mozilla.org/en-US/docs/Web/JavaScript
+GG : https://www.geeksforgeeks.org/javascript/javascript-tutorial/
+Notion : https://app.notion.com/p/Web-Development-387a6e4f76548047b32ad75d6c6b90e9?source=copy_link
+Youtube : https://www.youtube.com/watch?v=OuUqS8Po5ps&list=PL73Obo20O_7ihsIM5K-hHYPrcqkkdQcLa
+
+
+JS Online compiler: https://www.programiz.com/javascript/online-compiler/
