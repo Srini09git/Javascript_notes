@@ -77,9 +77,9 @@
 
 //logical OR
 
-let Student = false
-let Admin = false;
+// let Student = false
+// let Admin = false;
 
-if( Admin || Student){
-    console.log("Enter the office room")
-}
+// if( Admin || Student){
+//     console.log("Enter the office room")
+// }
