@@ -29,6 +29,7 @@
 //     console.log(i, "janani")
 // }
 
+
 //==========================================================
 // console.log(2)
 // console.log(4)
@@ -122,10 +123,10 @@
 
 //continue skip the cureent loop and go to the next 
 
-for( let i =1; i<=5; i++){
-    if(i === 3){
-        continue;
+// for( let i =1; i<=5; i++){
+//     if(i === 3){
+//         continue;
       
-    }
-    console.log(i)
-}
+//     }
+//     console.log(i)
+// }
