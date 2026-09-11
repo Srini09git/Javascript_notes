@@ -7,3 +7,83 @@ Youtube : https://www.youtube.com/watch?v=OuUqS8Po5ps&list=PL73Obo20O_7ihsIM5K-h
 github
 
 JS Online compiler: https://www.programiz.com/javascript/online-compiler/
+
+
+
+task
+
+# Simple Calculator without Dom
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+
+```
+<style>
+    body {
+        font-family: Arial;
+        text-align: center;
+        margin-top: 100px;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<h1>Simple Calculator</h1>
+
+<p>Open the browser Console to see the result.</p>
+
+<script>
+
+    function add(a, b) {
+        return a + b;
+    }
+
+    function subtract(a, b) {
+        return a - b;
+    }
+
+    function multiply(a, b) {
+        return a * b;
+    }
+
+    function divide(a, b) {
+        return a / b;
+    }
+
+    let num1 = Number(prompt("Enter first number:"));
+
+    let operator = prompt("Enter operator (+, -, *, /):");
+
+    let num2 = Number(prompt("Enter second number:"));
+
+    let result;
+
+    if (operator === "+") {
+        result = add(num1, num2);
+    }
+    else if (operator === "-") {
+        result = subtract(num1, num2);
+    }
+    else if (operator === "*") {
+        result = multiply(num1, num2);
+    }
+    else if (operator === "/") {
+        result = divide(num1, num2);
+    }
+    else {
+        result = "Invalid operator";
+    }
+
+    console.log("Result:", result);
+
+</script>
+```
+
+</body>
+</html>
