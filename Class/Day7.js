@@ -152,3 +152,30 @@
 
 //function1(40) <= function2 (30) <= function3 (20) <= function4 (10)
 // (40)
+
+function task1(result) {
+    let newResult = result + 10;
+    console.log("Work finished");
+    console.log(newResult);
+}
+
+function task2(result) {
+    let newResult = result + 10;
+
+    task1(newResult);
+}
+
+function task3(result) {
+    let newResult = result + 10;
+
+    task2(newResult);
+}
+
+function task4() {
+    let result = 10;
+
+    task3(result);
+}
+
+task4();
+
